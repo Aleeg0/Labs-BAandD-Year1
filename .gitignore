@@ -511,9 +511,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-*.docx
+# *.docx
 *.jpg
 *.png
-*.drawio
+# *.drawio
 *.txt
 *.mp3

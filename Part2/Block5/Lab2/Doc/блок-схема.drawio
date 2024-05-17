@@ -1,0 +1,101 @@
+<mxfile host="app.diagrams.net" modified="2024-02-24T08:10:19.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="PoEepZeiT16ZQXpuvzR1" version="23.1.6" type="device">
+  <diagram name="Page-1" id="3SGK5bCO-9KakGhWa4lL">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j6jNVSpaCebgCbqThe0I-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-1" target="j6jNVSpaCebgCbqThe0I-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-1" value="Function TTree.FindValues: TList&amp;lt;Integer&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-2" value="List := TList&amp;lt;Integer&amp;gt;.Create();&lt;br&gt;&lt;div&gt;FindValues(FPtrHeader, List);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-3" value="&amp;nbsp; &amp;nbsp; FindValues := List;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-4" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="80" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-7" target="j6jNVSpaCebgCbqThe0I-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-7" value="Function TTree.FindValues&lt;br&gt;(Var Tree: PtrRoot; Var List: TList&amp;lt;Integer&amp;gt;): Integer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="290" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-11" target="j6jNVSpaCebgCbqThe0I-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-11" target="j6jNVSpaCebgCbqThe0I-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-11" value="Tree = Nil" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="270" as="sourcePoint" />
+            <mxPoint x="365" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-14" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="435" y="130" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-16" value="Exit(0);" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-18" target="j6jNVSpaCebgCbqThe0I-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-18" value="&lt;div&gt;Left := FindValues&lt;/div&gt;&lt;div&gt;(Tree.FLeft, List) + 1;&lt;/div&gt;&lt;div&gt;Right := FindValues&lt;/div&gt;&lt;div&gt;(Tree.FRight, List) + 1;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-20" target="j6jNVSpaCebgCbqThe0I-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-20" target="j6jNVSpaCebgCbqThe0I-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-20" value="Left &amp;lt;&amp;gt; Right" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="550" as="sourcePoint" />
+            <mxPoint x="365" y="579" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-22" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="435" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-23" value="FindValues := Left" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="j6jNVSpaCebgCbqThe0I-32" target="j6jNVSpaCebgCbqThe0I-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-32" value="FindValues := Right;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-34" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="290" y="620" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j6jNVSpaCebgCbqThe0I-36" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="330" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2023-09-14T16:47:09.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="juXprP0CD3FwTYrmpnfr" version="21.7.5" type="device">
+  <diagram name="Page-1" id="XSaE2_hZFLvEi19DHxKq">
+    <mxGraphModel dx="1728" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PTwUKBvcCyE70l3knK1D-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-1" target="PTwUKBvcCyE70l3knK1D-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-1" value="Num1 := 0;&lt;br&gt;Num2 := 0;&lt;br&gt;ArithmeticAvg := 0;&lt;br&gt;GeometricAvg := 0;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-2" target="PTwUKBvcCyE70l3knK1D-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-2" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-3" target="PTwUKBvcCyE70l3knK1D-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-3" value="Ввод&lt;br&gt;Num1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-4" target="PTwUKBvcCyE70l3knK1D-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-4" value="Ввод&lt;br&gt;Num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-5" target="PTwUKBvcCyE70l3knK1D-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-5" value="ArithmeticAvg := &lt;br&gt;( Num1&amp;nbsp;+ Num2 ) / 2;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-6" target="PTwUKBvcCyE70l3knK1D-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-6" value="GoemetricAvg := Sqrt( Num1 * Num2 );" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-8" target="PTwUKBvcCyE70l3knK1D-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-8" target="PTwUKBvcCyE70l3knK1D-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-8" value="Arithmetic = GeometricAvg" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="520" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-9" target="PTwUKBvcCyE70l3knK1D-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-9" value="Вывод &lt;br&gt;ArithmeticAvg &amp;gt; Geometric Avg" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-10" value="Вывод &lt;br&gt;ArithmeticAvg = Geometric Avg" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="614" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-11" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="360" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PTwUKBvcCyE70l3knK1D-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="700" as="sourcePoint" />
+            <mxPoint x="420" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="700" />
+              <mxPoint x="520" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-25" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTwUKBvcCyE70l3knK1D-26" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="380" y="584" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

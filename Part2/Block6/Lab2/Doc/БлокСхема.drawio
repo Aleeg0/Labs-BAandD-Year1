@@ -1,0 +1,231 @@
+<mxfile host="app.diagrams.net" modified="2024-03-19T15:23:46.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="cxvkJ8XR2pKLKtShRhAu" version="24.0.7" type="device" pages="2">
+  <diagram id="d9QQzplhn6Rooq8i102T" name="Page-3">
+    <mxGraphModel dx="2963" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KS1z9VXCr2EM9eMN2uSV-1" target="KS1z9VXCr2EM9eMN2uSV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-1" value="Procedure TuVCLMain.&lt;div&gt;PrintBottomPartOfSssquare;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-2" value="K := Offset + 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-3" value="&lt;div&gt;A1&lt;/div&gt;(K &amp;lt; Offset + Size - 1)" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-4" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-5" value="A1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-6" value="&lt;div&gt;I := HighSize - Offset;&lt;/div&gt;&lt;div&gt;J := K;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-7" value="A2&lt;div&gt;(I &amp;lt; HighSize) And (StrGrSquare.Cells[J, I] &amp;lt;&amp;gt; &#39;&#39;)&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-8" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-9" value="A2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-10" value="&lt;div&gt;&amp;nbsp;StrGrSquare.Cells[J, I - Size] := StrGrSquare.Cells[J, I];&lt;/div&gt;&lt;div&gt;StrGrSquare.Cells[J, I] := &#39;&#39;;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-11" value="&lt;div&gt;Inc(J);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Inc(I);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-12" value="Inc(K, 2);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-13" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KS1z9VXCr2EM9eMN2uSV-16" target="KS1z9VXCr2EM9eMN2uSV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-16" value="Procedure TuVCLMain.PrintLeft&lt;div&gt;PartOfSquare;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-17" value="K := Offset + 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-18" value="&lt;div&gt;A1&lt;/div&gt;(K &amp;lt; Offset + Size - 1)" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-19" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-20" value="A1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-21" value="&lt;div&gt;I := K;&lt;/div&gt;&lt;div&gt;J := Offset - 1;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-22" value="A2&lt;div&gt;(J &amp;gt; -1) And (StrGrSquare.Cells[J, I] &amp;lt;&amp;gt; &#39;&#39;)&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-23" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="240" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-24" value="A2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-25" value="&lt;div&gt;&amp;nbsp;StrGrSquare.Cells[J + Size, I] := StrGrSquare.Cells[J, I];&lt;/div&gt;&lt;div&gt;StrGrSquare.Cells[J, I] := &#39;&#39;;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-26" value="&lt;div&gt;Dec(J);&lt;/div&gt;&lt;div&gt;Inc(I);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-27" value="Inc(K, 2);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-28" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="240" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KS1z9VXCr2EM9eMN2uSV-30" target="KS1z9VXCr2EM9eMN2uSV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-30" value="Procedure TuVCLMain.PrintRight&lt;div&gt;PartOfSquare;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-31" value="K := Offset + 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-32" value="&lt;div&gt;A1&lt;/div&gt;(K &amp;lt; Offset + Size - 1)" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-33" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="440" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-34" value="A1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-35" value="&lt;div&gt;I := K;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; J := HighSize - Offset;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-36" value="A2&lt;div&gt;(J &amp;lt; HighSize) And (StrGrSquare.Cells[J, I] &amp;lt;&amp;gt; &#39;&#39;)&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-37" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-38" value="A2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-39" value="&lt;div&gt;&amp;nbsp;StrGrSquare.Cells[J - Size,&amp;nbsp; I] := StrGrSquare.Cells[J, I];&lt;/div&gt;&lt;div&gt;StrGrSquare.Cells[J, I] := &#39;&#39;;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-40" value="&lt;div&gt;Inc(J);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Inc(I);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-41" value="Inc(K, 2);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-42" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="440" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="KS1z9VXCr2EM9eMN2uSV-58" target="KS1z9VXCr2EM9eMN2uSV-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-58" value="&lt;div&gt;Procedure TuVCLMain.PrintTop&lt;/div&gt;&lt;div&gt;PartOfSquare;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="630" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-59" value="K := Offset + 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-60" value="&lt;div&gt;A1&lt;/div&gt;(K &amp;lt; Offset + Size - 1)" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-61" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="630" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-62" value="A1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-63" value="&lt;div&gt;I := Offset - 1;&lt;/div&gt;&lt;div&gt;J := K;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-64" value="A2&lt;div&gt;(I &amp;gt; -1) And (StrGrSquare.Cells[J, I] &amp;lt;&amp;gt; &#39;&#39;)&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-65" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-66" value="A2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-67" value="&lt;div&gt;&amp;nbsp;StrGrSquare.Cells[J, I + Size] := StrGrSquare.Cells[J, I];&lt;/div&gt;&lt;div&gt;StrGrSquare.Cells[J, I] := &#39;&#39;;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-68" value="&lt;div&gt;Dec(I);&lt;/div&gt;&lt;div&gt;Inc(J);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-69" value="Inc(K, 2);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KS1z9VXCr2EM9eMN2uSV-70" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="630" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-G170OMOuTBILTWUAM5b" name="Page-2">
+    <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mH0JH4w5EwrilcWpQj_0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="OPdC7ewNQbkkhOuYeSKh-1" target="OPdC7ewNQbkkhOuYeSKh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-1" value="Procedure TuVCLMain.BitBtn&lt;div&gt;AcceptClick&lt;div&gt;(Sender: TObject);&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-2" value="&lt;div&gt;Size := StrToInt(ESize.Text);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Offset := Size Div 2;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; HighSize := Size * 2 - 1;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-3" value="&lt;div&gt;J := 0;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Number := 1;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-4" value="A1&lt;div&gt;Step1 := Size To HighSize&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-5" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-6" value="I&lt;div&gt;A1&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-7" value="I := Step1 - 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-8" value="A2&lt;div&gt;Step2 := 1 To Size&lt;br&gt;&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-9" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-10" value="&lt;div&gt;J&lt;/div&gt;A2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-11" value="&lt;div&gt;StrGrSquare.Cells[J, I] := IntToStr(Number);&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-12" value="Inc(Number);&lt;br&gt;Inc(J);&lt;br&gt;Dec(I);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-13" value="Dec(J, Size - 1);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OPdC7ewNQbkkhOuYeSKh-14" value="&lt;div&gt;&lt;div&gt;Конец&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
